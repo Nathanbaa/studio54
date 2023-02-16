@@ -1,0 +1,132 @@
+@font-face{
+    font-family:"Ubuntu";
+    src:url(../fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face{
+    font-family:"Montserrat";
+    src:url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family:"Montserrat-Black";
+    src:url(../fonts/Montserrat/Montserrat-Black.ttf);
+}
+@font-face{
+    font-family:"Montserrat-Bold";
+    src:url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face{
+    font-family:"Itallic";
+    src:url(../fonts/newItalic.woff2);
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---- navbar ---- */
+.navbar {
+    background-color: black;
+    
+}
+
+li .nav-link {
+    color: white!important;
+    margin-left: 5px;
+    font-family: 'ubuntu';
+}
+
+/* ---- haut de page ---- */
+#main {
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#main h1{
+    margin-top: 20%;
+    color: white;
+    font-size: 50px;
+    font-family: 'Montserrat-Black';
+}
+
+#main img{
+    width: 50%;
+    rotate: -30deg;
+    margin-top: 30px;
+}
+
+/* ---- features ---- */
+#features {
+    background-color: white;
+    padding: 5% 10%;
+}
+
+#features div {
+    text-align: center;
+}
+
+#features div span {
+    font-size: 70px;
+}
+
+/* ---- testimonials ---- */
+/* #testimonials {
+    height: 500px;
+} */
+
+.carousel-item {
+    padding: 10% 0;
+}
+
+.carousel-item p{
+    color: white;
+    font-size: 30px;
+    font-family: 'Itallic';
+}
+
+.carousel-item small{
+    color: white;
+    font-family: 'Itallic';
+}
+
+/* ---- ---- */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper:hover {
+    cursor: grab;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+  
+
+/* ---- footer ---- */
+#social {
+    background-color: white;
+    padding: 20px 0;
+}
+
+#social li{
+    display: inline-block;
+    padding: 20px 0;
+}
+
+#social ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .social li a:hover{
+    text-decoration: none;
+    color: white;
+} */
