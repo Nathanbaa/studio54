@@ -1,5 +1,5 @@
 # studio54
-Une simple page d'accueil pour tester principalement swiper js.
+Une simple page d'accueil pour tester principalement Swiper js.
 
 <br>
 
